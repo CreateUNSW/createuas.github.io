@@ -16,7 +16,6 @@ future: true
 plugins: [jekyll-paginate, kramdown, jekyll-seo-tag, jekyll-sitemap]
 markdown: kramdown
 include: ['_pages']
-
 collections:
   _people:
     output: true
