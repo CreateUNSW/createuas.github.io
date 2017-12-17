@@ -8,7 +8,7 @@
 # Site settings
 title: CREATE UAS
 email: uas@createunsw.com.au
-description: "CreateUNSW runs and provides workshops for beginners on electronics, programming, soldering, prototyping and 3D modelling. Weekly sales of electronic components on-campus, including Kits. Hackerspaces and makerspaces. Quadcopters. Funding and support for student projects."
+description: "CREATE Unmanned Aerial Systems is a UNSW-based group, whose aim is produce and test autonomous aerial vehicles and systems."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 permalink: /:categories/:title/
@@ -18,12 +18,6 @@ markdown: kramdown
 include: ['_pages']
 
 collections:
-  _products:
-    output: true
-    permalink: /store/:title/
-  _media:
-    output: true
-    permalink: /:categories/:title/
   _people:
     output: true
     permalink: /team/:title/
